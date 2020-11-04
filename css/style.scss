@@ -1,0 +1,105 @@
+body {
+    margin: 0 auto;
+}
+
+#home {
+    background-image: url(../img/bgimg1.png);
+    background-repeat: round;
+    height: 990px;
+    .navigation {
+        height: 140px;
+        display: flex;
+        flex-direction: row;
+        align-content: space-between;
+        align-items: center;
+        img {
+            height: 52px;
+            position: relative;
+            left: 165px;
+        }
+        p {
+            text-transform: uppercase;
+            font-weight: 600;
+            font-size: 16pt;
+            padding-top: 15px;
+            margin-left: 15px;
+            margin-right: 15px;
+            position: relative;
+            left: 450px;
+            cursor: pointer;
+        }
+        p:hover {
+            border-top: 5px solid orangered;
+        }
+    }
+    .text_block {
+        display: block;
+        position: relative;
+        left: 165px;
+        top: 200px;
+        width: 450px;
+
+        p:nth-child(1) {
+            font-size: 60pt;
+            margin-block-start: 10px;
+            margin-block-end: 30px;
+        }
+        p:nth-child(2) {
+            font-size: 17pt;
+            padding-bottom: 40px;
+        }
+        button {
+            display: block;
+            width: 280px;
+            height: 50px;
+            background-color: orangered;
+            font-size: 20pt;
+            color: white;
+            line-height: 0;
+            border: none;
+            font-weight: lighter;
+            box-shadow: 4px 4px 8px rgba(0,0,0,0.22);
+        }
+    }
+}
+
+#about_us {
+    background-image: url(../img/bgimg2.png);
+    background-repeat: round;
+    height: 700px;
+    margin-top: -18px;
+    p {
+        color: white;
+        position: relative;
+        width: 550px;
+        margin-block-start: 15px;
+        margin-block-end: 15px;
+        left: 750px;
+        top: 180px;
+    }
+    p:nth-child(1) {
+        font-size: 60pt;
+    }
+    p:nth-child(2) {
+        font-size: 14pt;
+    }
+    p:nth-child(3) {
+        font-size: 14pt;
+    }
+}
+
+#services {
+    background-color: #5cb5ff;
+    background-repeat: no-repeat;
+    height: 900px;
+    background-position: 750px 180px;
+    div {
+        width: 500px;
+        height: 100px;
+        display: flex;
+        flex-direction: row;
+        align-content: space-between;
+        align-items: center;
+        border: ;
+    }
+}

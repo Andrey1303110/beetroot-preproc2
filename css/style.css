@@ -1,0 +1,139 @@
+body {
+  margin: 0 auto;
+}
+
+#home {
+  background-image: url(../img/bgimg1.png);
+  background-repeat: round;
+  height: 990px;
+}
+
+#home .navigation {
+  height: 140px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+#home .navigation img {
+  height: 52px;
+  position: relative;
+  left: 165px;
+}
+
+#home .navigation p {
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 16pt;
+  padding-top: 15px;
+  margin-left: 15px;
+  margin-right: 15px;
+  position: relative;
+  left: 450px;
+  cursor: pointer;
+}
+
+#home .navigation p:hover {
+  border-top: 5px solid orangered;
+}
+
+#home .text_block {
+  display: block;
+  position: relative;
+  left: 165px;
+  top: 200px;
+  width: 450px;
+}
+
+#home .text_block p:nth-child(1) {
+  font-size: 60pt;
+  -webkit-margin-before: 10px;
+          margin-block-start: 10px;
+  -webkit-margin-after: 30px;
+          margin-block-end: 30px;
+}
+
+#home .text_block p:nth-child(2) {
+  font-size: 17pt;
+  padding-bottom: 40px;
+}
+
+#home .text_block button {
+  display: block;
+  width: 280px;
+  height: 50px;
+  background-color: orangered;
+  font-size: 20pt;
+  color: white;
+  line-height: 0;
+  border: none;
+  font-weight: lighter;
+  -webkit-box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.22);
+          box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.22);
+}
+
+#about_us {
+  background-image: url(../img/bgimg2.png);
+  background-repeat: round;
+  height: 700px;
+  margin-top: -18px;
+}
+
+#about_us p {
+  color: white;
+  position: relative;
+  width: 550px;
+  -webkit-margin-before: 15px;
+          margin-block-start: 15px;
+  -webkit-margin-after: 15px;
+          margin-block-end: 15px;
+  left: 750px;
+  top: 180px;
+}
+
+#about_us p:nth-child(1) {
+  font-size: 60pt;
+}
+
+#about_us p:nth-child(2) {
+  font-size: 14pt;
+}
+
+#about_us p:nth-child(3) {
+  font-size: 14pt;
+}
+
+#services {
+  background-image: url(../img/img3.png);
+  background-color: white;
+  background-repeat: no-repeat;
+  height: 900px;
+  background-position: 750px 180px;
+}
+
+#services div {
+  width: 500px;
+  height: 100px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-line-pack: justify;
+      align-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+/*# sourceMappingURL=style.css.map */
