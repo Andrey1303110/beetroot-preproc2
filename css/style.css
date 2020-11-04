@@ -4,7 +4,7 @@ body {
 
 #home {
   background-image: url(../img/bgimg1.png);
-  background-repeat: round;
+  background-repeat: no-repeat;
   height: 990px;
 }
 
@@ -113,11 +113,23 @@ body {
 }
 
 #services {
-  background-image: url(../img/img3.png);
-  background-color: white;
-  background-repeat: no-repeat;
+  background-image: url(../img/bgimg3.png);
+  background-repeat: round;
   height: 900px;
-  background-position: 750px 180px;
+}
+
+#services p {
+  -webkit-margin-before: 0;
+          margin-block-start: 0;
+  -webkit-margin-after: 0;
+          margin-block-end: 0;
+  font-size: 60pt;
+  color: white;
+  position: relative;
+  left: 780px;
+  top: 360px;
+  width: 440px;
+  padding-bottom: 80px;
 }
 
 #services div {
@@ -135,5 +147,23 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  background-color: whitesmoke;
+  padding: 0 20px;
+  font-size: 28px;
+  margin: 40px;
+  -webkit-box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+          box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out;
+}
+
+#services div:hover {
+  background-color: rgba(0, 255, 0, 0.5);
+  color: white;
+}
+
+#services div img {
+  position: absolute;
+  left: 480px;
 }
 /*# sourceMappingURL=style.css.map */

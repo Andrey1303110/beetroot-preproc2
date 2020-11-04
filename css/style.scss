@@ -4,7 +4,7 @@ body {
 
 #home {
     background-image: url(../img/bgimg1.png);
-    background-repeat: round;
+    background-repeat: no-repeat;
     height: 990px;
     .navigation {
         height: 140px;
@@ -89,10 +89,20 @@ body {
 }
 
 #services {
-    background-color: #5cb5ff;
-    background-repeat: no-repeat;
+    background-image: url(../img/bgimg3.png);
+    background-repeat: round;
     height: 900px;
-    background-position: 750px 180px;
+    p {
+        margin-block-start: 0;
+        margin-block-end: 0;
+        font-size: 60pt;
+        color: white;
+        position: relative;
+        left: 780px;
+        top: 360px;
+        width: 440px;
+        padding-bottom: 80px;
+        }
     div {
         width: 500px;
         height: 100px;
@@ -100,6 +110,19 @@ body {
         flex-direction: row;
         align-content: space-between;
         align-items: center;
-        border: ;
+        background-color: whitesmoke;
+        padding: 0 20px;
+        font-size: 28px;
+        margin: 40px;
+        box-shadow: 4px 4px 8px rgba(0,0,0,0.4);
+        transition: all .3s ease-in-out;
+        &:hover {
+            background-color: rgba(0, 255, 0, 0.5);
+            color: white;
+        }
+        img {
+            position: absolute;
+            left: 480px;
+        }
     }
 }
