@@ -4,7 +4,7 @@ body {
 
 #home {
     background-image: url(../img/bgimg1.png);
-    background-repeat: no-repeat;
+    background-repeat: round;
     height: 990px;
     .navigation {
         height: 140px;
@@ -363,3 +363,173 @@ body {
         }
     }
 }
+
+#contact {
+    background-image: url(../img/bg.png);
+    background-size: cover;
+    font-family: 'Raleway', sans-serif;
+    margin: 0px;
+    .main_block {
+        padding: 45px 180px;
+        .main {
+            font-weight: bolder;
+            font-size: 70px;
+            text-align: center;
+            margin-block-start: 0em;
+            margin-block-end: 0em;
+        }
+        .description {
+            font-size: 15px;
+            font-weight: 600;
+            text-align: center;
+        }
+        .panels {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+        }
+        .panels {
+            margin-top: 25px;
+            .input_left:valid {
+                border: 2px rgba(0, 192, 0, 0.397);
+                border-style: outset;
+            }          
+            .input_left:invalid {
+              border: 2px rgba(236, 0, 0, 0.397);
+              border-style: inset;
+            }           
+            .input_left:focus {
+                background-color: #00b9b9be;
+                border-left: 3px solid blue;
+                width: 350px;
+            
+            }            
+            .text_input_left:focus {
+                background-color: #00b9b9be;
+                border-left: 3px solid blue;
+                width: 350px;
+            }
+            .text_input_left {
+                background-color: #00d3d33d;
+                width: 400px;
+                padding-left: 8px;
+                transition: all .35s;
+                margin: 7px;
+                border: none;
+                border-color: transparent;
+                outline: none;
+                height: 120px;
+                resize: none;
+                transition: all .4s ease-in-out;
+            }
+            ::placeholder {
+                color: rgba(255, 255, 255, 0.9);
+                font-size: 14px;
+            }
+            .input_left {
+                background-color: #00d3d33d;
+                height: 30px;
+                width: 400px;
+                padding-left: 8px;
+                transition: all .35s;
+                margin: 7px;
+                border: none;
+                border-color: transparent;
+                outline: none;
+                transition: all .4s ease-in-out;
+            }
+
+            .left_panel {
+                display: flex;
+                flex-direction: column;
+            }
+            button {
+                width: 300px;
+                margin-top: 30px;
+                align-self: center;
+            }
+            .right_panel {
+                display: flex;
+                flex-direction: column;
+            }
+            
+            .right_panel p {
+                margin-block-start: 5px;
+                margin-block-end: 5px;
+            }
+            
+            .right_up_text {
+                font-size: 15px;
+                font-weight: 600;
+            }
+            
+            .right_dw_text {
+                font-size: 15px;
+            }
+        }
+    }
+    footer {
+        background-color: rgb(31, 31, 31);
+        color: rgb(221, 221, 221);
+        margin: 0;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 0px 50px;
+        vertical-align: middle;
+        height: 70px;
+        position: relative;
+        bottom: -70px;
+    }
+    
+    footer p {
+        height: 20px;
+        margin-block-start: 5px;
+        margin-block-end: 5px;
+    }
+    
+    footer img {
+        height: 20px;
+        margin: auto 5px;
+    }
+    a {
+        color: rgb(255, 67, 67);
+    }
+    
+    @import url(https://fonts.googleapis.com/css?family=Open+Sans:800,400);
+    *, *:before, *:after {
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+    }
+    .mail-btn {
+        display:inline-block;
+        padding:0.5rem 1rem;
+        border:3px solid #00d3d3c4;
+        background:none;
+        outline:none;
+        -webkit-appearance: none;
+        font-size:2rem;
+        color: #00d3d3c4;
+        text-decoration:none;
+        text-transform:uppercase;
+        letter-spacing:0.5rem;
+        text-indent:0.5rem;
+        cursor:pointer;
+        transition: all .3s ease-in-out;
+        &:hover {
+            transform: scale(.9);
+            transition: all .3s ease-in-out;
+        }
+        &:active {
+            transform: scale(.8);
+            transition: all .2s cubic-bezier(0.3, 5, 0.5, 1);
+        }
+    }
+}
+
+
+
+
+

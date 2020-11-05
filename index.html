@@ -108,8 +108,47 @@
             </form>
         </section>
 
+        <section id="contact">
+            <script src="./script/script.js">
+            </script>
 
-        <section></section>
+            <div class="main_block">
+                <div>
+                    <p class="upper_text main">Contact</p>
+                    <p class="upper_text description">For new projects, ideas, business or anything<br />you'd like to
+                        discuss,
+                        contact with me!</p>
+                </div>
+
+                <div class="panels">
+                    <form action="./otpravka.php" method="POST" class="left_panel">
+                        <input type="text" minlength="3" class="input_left" placeholder="Your name" autocomplete="name"
+                            required>
+                        <input type="email" minlength="6" class="input_left" placeholder="Your e-mail"
+                            autocomplete="email" required>
+                        <input type="tel" minlength="10" class="input_left" placeholder="Your phone number"
+                            autocomplete="tel" required pattern="[0-9]">
+                        <textarea class="text_input_left" placeholder="Your message"></textarea>
+                        <button class="mail-btn" name="otpravka" type="submit">send</button>
+                    </form>
+
+                    <div class="right_panel">
+                        <p class="right_up_text">ADDRESS</p>
+                        <p class="right_dw_text">123 City name, Street, City, Country</p>
+                        <p class="right_up_text">EMAIL</p>
+                        <p class="right_dw_text">cahee@domain</p>
+                        <p class="right_up_text">PHONE</p>
+                        <p class="right_dw_text">97584595</p>
+                    </div>
+                </div>
+            </div>
+
+            <footer>
+                <p>© 2015 Company. All right reserved.</p>
+                <p><img svg src="./img/logo-small.png"></p>
+                <p>Made with <a>love</a> by Auskteez</p>
+            </footer>
+        </section>
 
     </div>
 
