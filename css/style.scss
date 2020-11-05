@@ -27,6 +27,10 @@ body {
             position: relative;
             left: 450px;
             cursor: pointer;
+            a {
+                text-decoration: none;
+                color: black;
+            }
         }
         p:hover {
             border-top: 5px solid orangered;

@@ -43,6 +43,11 @@ body {
   cursor: pointer;
 }
 
+#home .navigation p a {
+  text-decoration: none;
+  color: black;
+}
+
 #home .navigation p:hover {
   border-top: 5px solid orangered;
 }
