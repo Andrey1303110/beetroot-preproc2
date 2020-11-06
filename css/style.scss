@@ -169,7 +169,8 @@ body {
         padding-bottom: 70px;
         div {
             background-repeat: round;
-            filter: grayscale(1);
+            filter: grayscale(.8);
+            border-radius: 3%;
             transition: all .3s ease-in-out;
             &:hover {
                 filter: grayscale(0);
@@ -201,14 +202,14 @@ body {
             grid-column-start: 1;
             grid-column-end: 7;
             grid-row-start: 7;
-            grid-row-end: 11;
+            grid-row-end: 14;
         }
         #container5 {
             background-image: url(../img/gallery_5.png);
             grid-column-start: 7;
             grid-column-end: 13;
             grid-row-start: 7;
-            grid-row-end: 11;
+            grid-row-end: 14;
         }
     }
     form {

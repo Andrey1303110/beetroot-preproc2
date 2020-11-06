@@ -225,8 +225,9 @@ body {
 
 #gallery .grid_container div {
   background-repeat: round;
-  -webkit-filter: grayscale(1);
-          filter: grayscale(1);
+  -webkit-filter: grayscale(0.8);
+          filter: grayscale(0.8);
+  border-radius: 3%;
   -webkit-transition: all .3s ease-in-out;
   transition: all .3s ease-in-out;
 }
@@ -273,7 +274,7 @@ body {
   grid-column-end: 7;
   -ms-grid-row: 7;
       grid-row-start: 7;
-  grid-row-end: 11;
+  grid-row-end: 14;
 }
 
 #gallery .grid_container #container5 {
@@ -283,7 +284,7 @@ body {
   grid-column-end: 13;
   -ms-grid-row: 7;
       grid-row-start: 7;
-  grid-row-end: 11;
+  grid-row-end: 14;
 }
 
 #gallery form {
